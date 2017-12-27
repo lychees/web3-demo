@@ -9,6 +9,11 @@
     "web3": "^0.20.3"
   },
   "scripts": {
+    "ethereum": "geth --testnet --fast --cache=512 console --rpc --rpccorsdomain \"*\"",
+    "ethereum:init": "geth account list > /dev/null || geth account new < defaultPassword.txt",
+    "web3": "node src/web3-server.js",
+    "postinstall": "npm run ethereum:init",
+    "start:balance": "opn public/balance.html",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

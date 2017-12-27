@@ -1,3 +1,18 @@
+# web3-demo
+
+## Quick Start
+1. Install [`node@8`](https://nodejs.org/) with [nvm](https://github.com/creationix/nvm) (recommended)
+2. Install [cpp-ethereum](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/index.html#cpp-ethereum)
+3. Clone this repo and run `npm install`
+4. Run `npm run ethereum:init` if you
+  - install `cpp-ethereum` after `npm install`
+  - Or facing `Provided address "undefined"` error in the following steps
+5. Run `npm run ethereum` to start an ethereum client
+6. Run `npm run web3` to start a web3 server
+7. Run `npm run start:balance` to open the web3 example
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
