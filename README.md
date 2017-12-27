@@ -2,12 +2,12 @@
 
 ## Quick Start
 1. Install [`node@8`](https://nodejs.org/) with [nvm](https://github.com/creationix/nvm) (recommended)
-2. Install [cpp-ethereum](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/index.html#cpp-ethereum)
+2. Install [go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu)
 3. Clone this repo and run `npm install`
-4. Run `npm run ethereum:init` if you
-  - install `cpp-ethereum` after `npm install`
+4. Run `npm run geth:init` if you
+  - install `go-ethereum` after `npm install`
   - Or facing `Provided address "undefined"` error in the following steps
-5. Run `npm run ethereum` to start an ethereum client
+5. Run `npm run geth` to start an go-ethereum client
 6. Run `npm run web3` to start a web3 server
 7. Run `npm run start:balance` to open the web3 example
 
